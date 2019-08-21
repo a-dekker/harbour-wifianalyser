@@ -1,0 +1,20 @@
+# Rename this file as harbour-wifianalyser.changes to include changelog
+# entries in your RPM file.
+#
+# Add new changelog entries following the format below.
+# Add newest entries to the top of the list.
+# Separate entries from eachother with a blank line.
+
+# * date Author's Name <author's email> version-release
+# - Summary of changes
+
+* Wed Aug 21 2019 Jack Tar <jack.tar@example.com> 2.1.4-1
+- Scalable fontsize network names in graph view
+- Corrected channel info for 5GHz
+- Highlight 5GHz names in list view
+- Separate 5GHz graph view mode
+
+* Sun Apr 13 2014 Jack Tar <jack.tar@example.com> 0.0.1-1
+- Scrubbed the deck
+- Hoisted the sails
+
