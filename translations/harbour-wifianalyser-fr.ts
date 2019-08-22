@@ -6,7 +6,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="36"/>
         <source>About</source>
-        <translation type="unfinished">À propos</translation>
+        <translation>À propos</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="68"/>
@@ -16,17 +16,17 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="74"/>
         <source>Homepage</source>
-        <translation type="unfinished"></translation>
+        <translation>Accueil</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="81"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Don</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="89"/>
         <source>Source code</source>
-        <translation type="unfinished"></translation>
+        <translation>Code source</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="99"/>
@@ -82,12 +82,12 @@
     <message>
         <location filename="../qml/pages/GraphPage.qml" line="229"/>
         <source>Please, turn WiFi on</source>
-        <translation type="unfinished">Merci d&apos;activer le Wifi</translation>
+        <translation>Merci d&apos;activer le Wifi</translation>
     </message>
     <message>
         <location filename="../qml/pages/GraphPage.qml" line="234"/>
         <source>There are no WiFi networks</source>
-        <translation type="unfinished">Il n&apos;y a aucun réseau Wifi</translation>
+        <translation>Il n&apos;y a aucun réseau Wifi</translation>
     </message>
 </context>
 <context>
