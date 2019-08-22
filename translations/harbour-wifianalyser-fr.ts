@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="en_US">
 <context>
     <name>AboutPage</name>
     <message>
@@ -11,7 +11,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="68"/>
         <source>The simple tool for WiFi networks analyzing distributed under the terms of the GNU GPLv3.</source>
-        <translation>Outil simple d&apos;utilisation pour analyser les réseaux Wifi distribué sous les termes de licence GNU GPLv3</translation>
+        <translation>Outil simple d&apos;utilisation pour analyser les réseaux Wifi distribué sous les termes de licence GNU GPLv3.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="74"/>
@@ -62,6 +62,11 @@
         <location filename="../qml/pages/AboutPage.qml" line="113"/>
         <source>Polish</source>
         <translation>Polonais</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="114"/>
+        <source>Chinese</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

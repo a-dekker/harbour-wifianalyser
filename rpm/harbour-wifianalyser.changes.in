@@ -8,6 +8,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Thu Aug 22 2019 Jack Tar <jack.tar@example.com> 2.1.4-2
+- Added Chinese translation
+- Updated French translation
 * Wed Aug 21 2019 Jack Tar <jack.tar@example.com> 2.1.4-1
 - Scalable fontsize network names in graph view
 - Corrected channel info for 5GHz
@@ -17,4 +20,3 @@
 * Sun Apr 13 2014 Jack Tar <jack.tar@example.com> 0.0.1-1
 - Scrubbed the deck
 - Hoisted the sails
-

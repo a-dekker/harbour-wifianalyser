@@ -108,9 +108,10 @@ Page {
                 text: qsTr("Localization") + ":<br>" + qsTr("Swedish")
                       + ": <a href=\"https://github.com/eson57\">Åke Engelbrektson</a><br>" + qsTr(
                           "Czech") + ": <a href=\"https://github.com/RikudouSage\">Rikudou Sennin</a><br>" + qsTr("French")
-                      + ": <a href=\"https://github.com/Quent-in\">Rasher</a><br>" + qsTr(
+                      + ": <a href=\"https://github.com/Quent-in\">Rasher</a> & " + "<a href=\"https://github.com/Quenty31\">Quentí</a><br>" + qsTr(
                           "Finnish") + ": <a href=\"https://github.com/Gehock\">Sami Laine</a><br>"
-                      + qsTr("Polish") + ": <a href=\"https://github.com/mp107\">mp107</a>"
+                      + qsTr("Polish") + ": <a href=\"https://github.com/mp107\">mp107</a><br>"
+                      + qsTr("Chinese") + ": <a href=\"https://github.com/dashinfantry\">dashinfantry</a>"
             }
         }
 

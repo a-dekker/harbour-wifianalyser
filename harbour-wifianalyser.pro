@@ -47,7 +47,8 @@ TRANSLATIONS += translations/harbour-wifianalyser-ru.ts \
     translations/harbour-wifianalyser-cs.ts \
     translations/harbour-wifianalyser-fr.ts \
     translations/harbour-wifianalyser-fi.ts \
-    translations/harbour-wifianalyser-pl.ts
+    translations/harbour-wifianalyser-pl.ts \
+    translations/harbour-wifianalyser-zh_CN.ts
 
 DISTFILES += \
     qml/views/TopMenu.qml
