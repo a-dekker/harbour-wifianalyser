@@ -29,10 +29,8 @@ import "pages"
 ApplicationWindow {
     id: rootApp
 
-    allowedOrientations: Orientation.Portrait | Orientation.Landscape
-                         | Orientation.LandscapeInverted
-    _defaultPageOrientations: Orientation.Portrait | Orientation.Landscape
-                              | Orientation.LandscapeInverted
+    allowedOrientations: defaultAllowedOrientations
+    _defaultPageOrientations: defaultAllowedOrientations
 
     property string frequencyBand: "2.4GHz"
 
