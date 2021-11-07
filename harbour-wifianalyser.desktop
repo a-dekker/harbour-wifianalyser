@@ -4,3 +4,8 @@ X-Nemo-Application-Type=silica-qt5
 Icon=harbour-wifianalyser
 Exec=harbour-wifianalyser
 Name=WiFi Analyser
+
+[X-Sailjail]
+OrganizationName=org.osanwe
+ApplicationName=wifianalyser
+Permissions=Internet
