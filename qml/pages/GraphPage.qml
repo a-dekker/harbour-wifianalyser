@@ -208,6 +208,7 @@ Page {
     }
 
     function drawGraph() {
+        console.log("redraw now")
         var context = graph.getContext("2d")
         context.clearRect(0, 0, graph.width, graph.height)
         context.lineWidth = 3
@@ -251,6 +252,7 @@ Page {
                 bottomMargin: Theme.paddingLarge
             }
 
+            onVisibleChanged: requestPaint()
             onPaint: drawGraph()
         }
     }

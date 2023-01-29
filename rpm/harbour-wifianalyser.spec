@@ -12,11 +12,11 @@ Name:       harbour-wifianalyser
 %{!?qtc_qmake5:%define qtc_qmake5 %qmake5}
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
-Summary:    The simple tool for WiFi networks analyzing distributed under the terms of the GNU GPLv3.
+Summary:    The simple tool for WiFi networks analyzing
 Version:    2.1.5
 Release:    1
 Group:      Qt/Qt
-License:    GNU GPLv3
+License:    GPLv3
 URL:        https://github.com/osanwe/harbour-wifianalyzer
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   sailfishsilica-qt5 >= 0.10.9
@@ -27,7 +27,7 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-The simple tool for WiFi networks analyzing distributed under the terms of the GNU GPLv3.
+The simple tool for WiFi networks analyzing, distributed under GPLv3
 
 
 %prep
