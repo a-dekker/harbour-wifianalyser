@@ -1,3 +1,5 @@
+
+
 /*
   Copyright (C) 2016 Petr Vytovtov
   Contact: Petr Vytovtov <osanwe@protonmail.ch>
@@ -18,7 +20,6 @@
   You should have received a copy of the GNU General Public License
   along with WiFi Analyser.  If not, see <http://www.gnu.org/licenses/>.
 */
-
 import QtQuick 2.2
 import Sailfish.Silica 1.0
 
@@ -35,12 +36,16 @@ PullDownMenu {
         text: qsTr("Set as default")
         onClicked: {
             settings.setValue("defaultPage", pageName)
-            pageStack.replaceAbove(
-                        null, Qt.resolvedUrl("../pages/" + pageName), {}, PageStackAction.Immediate)
+            pageStack.replaceAbove(null,
+                                   Qt.resolvedUrl("../pages/" + pageName), {},
+                                   PageStackAction.Immediate)
         }
     }
     MenuItem {
         text: frequencyBand === "2.4GHz" ? "5GHz" : "2.4GHz"
-        onClicked: frequencyBand === "2.4GHz" ? frequencyBand = "5GHz" : frequencyBand = "2.4GHz"
+        onClicked: {
+            frequencyBand === "2.4GHz" ? frequencyBand = "5GHz" : frequencyBand = "2.4GHz"
+            graphPage.rePaintGraph()
+        }
     }
 }

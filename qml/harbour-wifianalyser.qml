@@ -22,7 +22,7 @@
 */
 import QtQuick 2.2
 import Sailfish.Silica 1.0
-import MeeGo.Connman 0.2
+import Connman 0.2
 
 import "pages"
 
@@ -204,6 +204,19 @@ ApplicationWindow {
         default:
             return -1
             // default: return -1;
+        }
+    }
+
+    Connections {
+        target: Qt.application
+        onStateChanged: {
+            if (Qt.application.state === Qt.ApplicationActive) {
+                updateTimer.running = true
+                // console.log("active")
+            } else {
+                updateTimer.running = false
+                // console.log("inactive")
+            }
         }
     }
 

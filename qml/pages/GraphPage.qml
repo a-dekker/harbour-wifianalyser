@@ -46,6 +46,10 @@ Page {
         return channels
     }
 
+    function rePaintGraph() {
+        graph.requestPaint()
+    }
+
     function rescaleFor5GHz(channel) {
         if (channel > 14) {
             channel = (channel / 15).toFixed(0)
@@ -208,7 +212,6 @@ Page {
     }
 
     function drawGraph() {
-        console.log("redraw now")
         var context = graph.getContext("2d")
         context.clearRect(0, 0, graph.width, graph.height)
         context.lineWidth = 3
